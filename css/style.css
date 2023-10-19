@@ -1,0 +1,280 @@
+.container {
+    width: 80%;
+    margin: auto;
+}
+body {
+    background-color: #F9FAFF;
+    scroll-behavior: smooth;
+}
+#menu li {
+    padding-top: 25px;
+}
+#menu li a {
+    font: 1.13em 'Playfair Display';
+    color: #25282b;
+    text-decoration: none;
+}
+header {
+    text-align: center;
+}
+nav {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+}
+#textarea {
+    width: 80%;
+    margin: auto;
+    text-align: justify;
+}
+h5 {
+    padding-top: 40px;
+    color: #FDC435;
+    font: bold 1.25em 'Playfair Display';
+}
+h3 {
+    font: bold 2em 'Playfair Display';
+    color: #000;
+    margin: 12px auto 32px auto;
+}
+h2 {
+    font: 700 2em 'Playfair Display';
+}
+h4 {
+    font: bold 2em 'Playfair Display';
+    text-align: center;
+}
+hr {
+    width: 100px;
+    margin: auto;
+    border: none;
+    border-radius: 2px;
+    border-bottom: 4px solid #FDC435;
+    margin-bottom: 60px;
+}
+p {
+    font: 1em/1.25 'Playfair Display';
+    color: #828282;
+}
+#projecttext {
+    text-align: justify; 
+    margin: 24px auto;}
+#img {
+    background: url(../img/image.png) center/cover;
+    height: 50vh;
+    margin-top: 160px;
+}
+#btns {
+    display: flex; 
+    justify-content: left; 
+    margin: 10px auto;
+}
+#btn1, #btn2 {
+    padding: 8px 24px;
+    color: #25282B;
+    cursor: pointer;
+    font: 600 1.13em 'Playfair Display';
+    color: #25282B;
+}
+#btn1 {
+    background-color: #FDC435;
+    border: none;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+#btn2 {
+    background-color: initial;
+    border: 1px solid #25282B;
+    border-radius: 10px;
+}
+#btn3 {
+    padding: 8px 24px;
+    background-color: initial;
+    border: 1px solid #25282B;
+    border-radius: 24px;
+    cursor: pointer;
+}
+#pro1 {
+    background: url(../img/project1.png) center/cover;
+    height: 50vh;
+}
+#pro2 {
+    background: url(../img/project2.png) center/cover;
+    height: 50vh;
+}
+#pro3 {
+    background: url(../img/project3.png) center/cover;
+    height: 50vh;
+}
+#secondsection {
+    margin: 144px auto 0 auto;
+}
+#projectbg {
+    background-color: #fff;
+    width: 100%;
+    margin: auto;
+}
+#projectbg3 {
+    width: 100%;
+    margin: auto;
+    background-color: #fff;
+}
+#projectbg1 {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#projects {
+    margin-bottom: 50px;
+}
+#footer {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 30px 0;
+}
+#socialicons {
+    width: 192px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+#socialicons > div {
+    margin: 0 15px 32px 15px;
+}
+#socialicons > div > a {
+    color: initial;
+}
+#form {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+#input, #textarea2 {
+    width: 80%;
+    padding: 8px 20px;
+    margin: 15px auto;
+    border: none;
+}
+#textarea2 {
+    height: 140px;
+}
+@media only screen and (min-width: 768px) {
+    body {
+        scroll-behavior: smooth;
+    }
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 25px 0 0 0;
+    }
+    #menu {
+        display: flex;
+        padding-top: 0;
+    }
+    #menu li {
+        padding: 0 20px;
+    }
+    #menu li:hover {
+        border-top: 1px solid #25282B;
+    }
+    #menu li a {
+        filter: opacity(0.7);
+        transition: 0.5s;
+    }
+    #menu li a:hover {
+        filter: opacity(1);
+    }
+    #btn1, #btn2, #btn3 {
+        filter: opacity(0.8);
+        transition: 0.5s;
+    }
+    #btn1:hover {
+        filter: opacity(1);
+    }
+    #btn2:hover {
+        filter: opacity(1);
+    }
+    #btn3:hover {
+        filter: opacity(1);
+    }
+    #textarea {
+        text-align: justify;
+        max-width: 486px;
+    }
+    h2 {
+        font-size: 2.5em;
+    }
+    h3 {
+        font: 700 3em 'Playfair Display';
+    }
+    #img{
+        margin: initial;
+        width: 70vh;
+    }
+    #pro1 {
+        width: 70vh;
+        border-radius: 0 30px 30px 0;
+    }
+    #pro2 {
+        width: 70vh;
+        border-radius: 30px 0 0 30px;
+    }
+    #pro3 {
+        width: 70vh;
+        border-radius: 0 30px 30px 0;
+    }
+    .section1 {
+        display: flex;
+        flex-direction: row;
+        padding: 50px 0 0 0;
+    }
+    #btns {
+        display: flex;
+        justify-content: left;
+    }
+    #btn1 {margin-right: 40px;}
+    #projects {
+        display: flex;
+        flex-direction: row;
+    }
+    #projectbg {
+        border-radius: 30px 0 0 30px;
+        max-width: 500px;
+    }
+    #projectbg3 {
+        border-radius: 0 30px 30px 0;
+        max-width: 500px;
+    }
+    #projectbg1 {
+        padding: 0 20px;
+        max-width: 406px;
+        margin: auto;
+        justify-content: center;
+        text-align: left;
+    }
+    i {
+        filter: opacity(0.7);
+        transition: 0.5s;
+    }
+    i:hover {
+        filter: opacity(1);
+    }
+    #input, #textarea2 {
+        max-width: 400px;
+    }
+    #input:hover, #textarea2:hover {
+        border-left: 1px solid #FDC435;
+        border-right: 1px solid #FDC435;
+    }
+    #form {
+        text-align: center;
+        max-width: 400px;
+    }
+}
