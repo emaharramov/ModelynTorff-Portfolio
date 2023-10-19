@@ -2,6 +2,10 @@
     width: 95%;
     margin: auto;
 }
+.container2 {
+    width: 95%;
+    margin: auto;
+}
 body {
     background-color: #F9FAFF;
     scroll-behavior: smooth;
@@ -167,6 +171,13 @@ p {
 @media only screen and (min-width: 768px) {
     body {
         scroll-behavior: smooth;
+    }
+     .container {
+        max-width: 992px;
+    }
+    .container2 {
+        max-width: 1200px;
+        margin: auto;
     }
     nav {
         display: flex;
